@@ -8,6 +8,8 @@ section {
     align-items: center;  /* alinhamento do eixo transversal */
     justify-content: center; /* alinhamento do eixo principal */
     gap: 4rem; /* espaçamento entre os elementos do display flex */
+
+    margin-bottom: 1rem;
 }
 
 .iphone img {
@@ -17,4 +19,27 @@ section {
 .iphone p {
     width: 30rem;
     text-align: center;
+}
+
+.samsung {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.samsung img {
+    width: 20rem;
+}
+
+.samsung p {
+    width: 30rem;
+    text-align: center;
+}
+
+.form {
+    padding: 1rem;
 }
